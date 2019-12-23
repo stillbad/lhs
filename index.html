@@ -1,226 +1,57 @@
 <!DOCTYPE html>
 <html>
-<title>bad</title>
+<title>news</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 120px;background: #222;}
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 120px}
-/* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
 </style>
-<body class="w3-black">
+<body>
 
-<!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <!-- Avatar image in top left corner -->
-  <img src="https://font-logo.nfhsnetwork.com/logo?name=Lindenhurst%20Senior%20High%20School&primaryColor=0x008000&secondaryColor=0xffffff" style="width:100%">
-  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa fa-home w3-xxlarge"></i>
-    <p>HOME</p>
-  </a>
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-user w3-xxlarge"></i>
-    <p>ABOUT</p>
-  </a>
-  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-eye w3-xxlarge"></i>
-    <p>PHOTOS</p>
-  </a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-envelope w3-xxlarge"></i>
-    <p>CONTACT</p>
-  </a>
-  <a href="https://stillbad.github.io/rqotd" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="	fa fa-question w3-xxlarge"></i>
-    <p>RQOTD</p>
-  </a>
-  <a href="https://stillbad.github.io/news" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="	fa fa-newspaper-o w3-xxlarge"></i>
-    <p>News</p>
-  </a>
-</nav>
 
-<!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
-    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
-    <a href="https://stillbad.github.io/rqotd" class="w3-bar-item w3-button" style="width:25% !important">RQOTD</a>
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="https://www.pajiba.com/assets_c/2019/12/Maurizio%20Cattelan%20banana-thumb-700xauto-219739.png" alt="Hamburger Catering" width="1600" height="40">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Bad News</h1>
   </div>
-</div>
+</header>
 
-<!-- Page Content -->
-<div class="w3-padding-large" id="main">
-  <!-- Header/Home -->
-  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small">We put the</span> L in Lindy</h1>
-    <p></p>
-    <img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WTGYGDA4LYI6VNGB7UGZDNQNTY.jpg&w=767" alt="boy" class="w3-image" width="992" height="1108">
-  </header>
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
 
   <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-grey">My Name</h2>
-    <hr style="width:200px" class="w3-opacity">
-    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
-    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-    <p class="w3-wide">Bad</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:100%"></div>
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="https://font-logo.nfhsnetwork.com/logo?name=Lindenhurst%20Senior%20High%20School&primaryColor=0x008000&secondaryColor=0xffffff" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
     </div>
-    <p class="w3-wide">Paying Attention</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:1%"></div>
-    </div>
-    <p class="w3-wide">My Grades</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:0%"></div>
-    </div><br>
-    
-    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">11+</span><br>
-        Partners
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">55+</span><br>
-        Projects Done
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">89+</span><br>
-        Happy Clients
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">150+</span><br>
-        Meetings
-      </div>
-    </div>
-<center><a href="https://docs.google.com/document/d/1Lxw311eps5nmjdNMVZy-2Tn-s0kLi6-9tpbo32nIND8/edit?usp=sharing" download>
-  <img src="http://pluspng.com/img-png/click-here-png-click-here-png-png-image-200.png" alt="W3Schools" width="154" height="152">
-</a>
-</center>
-    
-    <!-- Grid for pricing tables -->
-    <h3 class="w3-padding-16 w3-text-light-grey">Prices (temporarily on 9th grade)</h3>
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">1 time use</li>
-          <li class="w3-padding-16">1 class</li>
-          <li class="w3-padding-16">NO PROJECTS</li>
-          <li class="w3-padding-16">Only that nights assignment</li>
-          <li class="w3-padding-16">
-            <h2>$ 3</h2>
-            <span class="w3-opacity">per subject</span>
-          </li>
-     
-        </ul>
-      </div>
 
-      <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Subscription</li>
-          <li class="w3-padding-16">All Classes</li>
-          <li class="w3-padding-16">SOME Projects</li>
-          <li class="w3-padding-16">Any nights Assignment</li>
-          <li class="w3-padding-16">
-            <h2>$ 20</h2>
-            <span class="w3-opacity">per week</span>
-          </li>
-        </ul>
-      </div>
-    <!-- End Grid/Pricing tables -->
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Catering</h1><br>
+      <h5 class="w3-center">Tradition since 1889</h5>
+      <p class="w3-large">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span class="w3-tag w3-light-grey">seasonal</span> ingredients.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
-    
-    <!-- Testimonials -->
-    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
-    <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
-    <p>Jane Doe saved us from a web disaster.</p><br>
-    
-    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
-    <p>No one is better than Jane Doe.</p>
-  <!-- End About Section -->
   </div>
   
-  <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-content" id="photos">
-    <h2 class="w3-text-light-grey">My Photos</h2>
-    <hr style="width:200px" class="w3-opacity">
-
-    <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-        <img src="https://bostonglobe-prod.cdn.arcpublishing.com/resizer/5YnmtPJhAxjOkOHHilCogrjizus=/1440x0/arc-anglerfish-arc2-prod-bostonglobe.s3.amazonaws.com/public/OBLWYQAYQII6VGRY2KP6Z63EGM.jpg" style="width:100%">
-        <img src="https://s.abcnews.com/images/US/banana-sh-er-191208_hpMain_16x9_992.jpg" style="width:100%">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCImnay_dGd35WeeiRhWLywVFAz1SZoeLnnUAHmR9c3IT_ETkz0w:https://infostormer.com/wp-content/uploads/2019/12/banana-duct-taped.jpg&s" style="width:100%">
-      </div>
-
-      <div class="w3-half">
-        <img src="https://i.ytimg.com/vi/zui9kLTGKVo/maxresdefault.jpg" style="width:100%">
-        <img src="https://img.jakpost.net/c/2019/12/06/2019_12_06_83252_1575601724._large.jpg" style="width:85%">
-        <img src="https://www.pajiba.com/assets_c/2019/12/Maurizio%20Cattelan%20banana-thumb-700xauto-219739.png" style="width:100%">
-        <img src="https://img.huffingtonpost.com/asset/5deac3bf250000044dd2f702.jpeg?cache=3gkyrmyifh&ops=1778_1000" style="width:100%">
-      </div>
-    <!-- End photo grid -->
-    </div>
-  <!-- End Portfolio Section -->
-  </div>
-
-  <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-    <h2 class="w3-text-light-grey">Contact</h2>
-    <hr style="width:200px" class="w3-opacity">
-
-    <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> New York, US</p>
-      
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: stillisbad@gmail.com</p>
-    </div><br>
-    <p>Send me a message:</p>
-
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
-      <p>
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-           SEND MESSAGE
-        </button>
-      </p>
-    </form>
-  <!-- End Contact Section -->
-  </div>
+  <hr>
   
-    <!-- Footer -->
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-<font color="red"><button style="border:1px; background-color: transparent;" onclick=window.open("https://instagram.com/still._bad?igshid=14bv1t9jcydl5");><i class="fa fa-instagram w3-hover-opacity" style="font-size:40px;color:white;"></i></button></font>
 
-<font color="red"><button style="border:1px; background-color: transparent;" onclick=window.open("https://www.snapchat.com/add/stillisbad");><i class="fa fa-snapchat w3-hover-opacity" style="font-size:40px;color:white;"></i></button></font>
 
-<font color="red"><button style="border:1px; background-color: transparent;" onclick=window.open("https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcSKhpdJwxfswNnNclRNlrcRnfnFTTwnvmpVRldNbZcXPhcxdrsKqDtlSlzHPmZkTkjQDlnGV");><i class="fa fa-envelope w3-hover-opacity" style="font-size:37px;color:white;"></i></button></font>
 
-    <p class="w3-medium">Powered by <a href="https://gfuel.com/" target="_blank" class="w3-hover-text-green">G-Fuel</a></p>
-  <!-- End footer -->
-  </footer>
-
-<!-- END PAGE CONTENT -->
+  
+<!-- End page content -->
 </div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https:/gfuel.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">G-Fuel</a></p>
+</footer>
 
 </body>
 </html>
